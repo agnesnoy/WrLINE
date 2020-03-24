@@ -1,0 +1,6 @@
+parm ../test.prmtop parm7
+trajin ../test.mdcrd 1 1
+strip !(@C1')
+strip :1-336 outprefix C1
+trajout C1.test.pdb
+
